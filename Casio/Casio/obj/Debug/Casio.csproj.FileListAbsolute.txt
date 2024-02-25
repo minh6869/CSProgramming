@@ -1,0 +1,10 @@
+D:\Code\testwinform\Casio\Casio\bin\Debug\Casio.exe.config
+D:\Code\testwinform\Casio\Casio\bin\Debug\Casio.exe
+D:\Code\testwinform\Casio\Casio\bin\Debug\Casio.pdb
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.csproj.AssemblyReference.cache
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.Form1.resources
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.Properties.Resources.resources
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.csproj.GenerateResource.cache
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.csproj.CoreCompileInputs.cache
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.exe
+D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.pdb
