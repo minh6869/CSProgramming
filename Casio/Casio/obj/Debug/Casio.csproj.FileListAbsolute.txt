@@ -8,3 +8,13 @@ D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.csproj.GenerateResource.cache
 D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.csproj.CoreCompileInputs.cache
 D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.exe
 D:\Code\testwinform\Casio\Casio\obj\Debug\Casio.pdb
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\bin\Debug\Casio.exe.config
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\bin\Debug\Casio.exe
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\bin\Debug\Casio.pdb
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.csproj.AssemblyReference.cache
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.Form1.resources
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.Properties.Resources.resources
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.csproj.GenerateResource.cache
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.csproj.CoreCompileInputs.cache
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.exe
+C:\Users\Hello\Desktop\Caculator-WinForm\Casio\Casio\obj\Debug\Casio.pdb
