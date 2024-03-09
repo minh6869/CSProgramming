@@ -1,0 +1,14 @@
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\Quan_li_muon_sach.exe.config
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\Quan_li_muon_sach.exe
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\Quan_li_muon_sach.pdb
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\Guna.UI2.dll
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.csproj.AssemblyReference.cache
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.Form1.resources
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.Properties.Resources.resources
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.csproj.GenerateResource.cache
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.csproj.CoreCompileInputs.cache
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.csproj.CopyComplete
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.exe
+D:\Code\Lập trình Winform\Quan_li_muon_sach\Quan_li_muon_sach\obj\Debug\Quan_li_muon_sach.pdb
