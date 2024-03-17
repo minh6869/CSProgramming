@@ -1,0 +1,16 @@
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.exe.config
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.exe
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.pdb
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\Guna.UI2.dll
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.csproj.AssemblyReference.cache
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.resources
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.csproj.GenerateResource.cache
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.csproj.CoreCompileInputs.cache
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.csproj.CopyComplete
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.exe
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.pdb
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.splash_screen.resources
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.Login_Register_Form.resources
+D:\Code\Lập trình Winform\Phần_mềm_quản_lí_thuê_xe_ver2\Phần_mềm_quản_lí_thuê_xe_ver2\obj\Debug\Phần_mềm_quản_lí_thuê_xe_ver2.dash_board.resources
