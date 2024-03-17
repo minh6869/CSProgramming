@@ -1,0 +1,14 @@
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\Nhap_Thong_Tin_Sinh_Vien_2.exe.config
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\Nhap_Thong_Tin_Sinh_Vien_2.exe
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\Nhap_Thong_Tin_Sinh_Vien_2.pdb
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.csproj.AssemblyReference.cache
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.Form1.resources
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.Properties.Resources.resources
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.csproj.GenerateResource.cache
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.csproj.CoreCompileInputs.cache
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.csproj.CopyComplete
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.exe
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\obj\Debug\Nhap_Thong_Tin_Sinh_Vien_2.pdb
+D:\Code\Lập trình Winform\Nhap_Thong_Tin_Sinh_Vien_2\Nhap_Thong_Tin_Sinh_Vien_2\bin\Debug\Guna.UI2.dll
