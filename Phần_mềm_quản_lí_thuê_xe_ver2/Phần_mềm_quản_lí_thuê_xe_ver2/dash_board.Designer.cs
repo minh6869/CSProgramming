@@ -31,32 +31,36 @@
             this.components = new System.ComponentModel.Container();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.home_button = new Guna.UI2.WinForms.Guna2Button();
+            this.reports_button = new Guna.UI2.WinForms.Guna2Button();
+            this.customers_button = new Guna.UI2.WinForms.Guna2Button();
+            this.suppliers_button = new Guna.UI2.WinForms.Guna2Button();
+            this.vehicles_button = new Guna.UI2.WinForms.Guna2Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.palette_dash_board = new ComponentFactory.Krypton.Toolkit.KryptonPalette(this.components);
+            this.imgslide = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.main_center = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgslide)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel2, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.main_center, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1464, 657);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1531, 880);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -66,190 +70,220 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.panel1, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.guna2Panel3, 0, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 636F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(128, 651);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(129, 874);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
-            // panel1
+            // guna2Panel3
             // 
-            this.panel1.Controls.Add(this.guna2Button6);
-            this.panel1.Controls.Add(this.guna2Button4);
-            this.panel1.Controls.Add(this.guna2Button5);
-            this.panel1.Controls.Add(this.guna2Button1);
-            this.panel1.Controls.Add(this.guna2Button3);
-            this.panel1.Location = new System.Drawing.Point(3, 10);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(122, 630);
-            this.panel1.TabIndex = 1;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.guna2Panel3.BackColor = System.Drawing.Color.White;
+            this.guna2Panel3.BorderRadius = 20;
+            this.guna2Panel3.Controls.Add(this.home_button);
+            this.guna2Panel3.Controls.Add(this.imgslide);
+            this.guna2Panel3.Controls.Add(this.reports_button);
+            this.guna2Panel3.Controls.Add(this.customers_button);
+            this.guna2Panel3.Controls.Add(this.suppliers_button);
+            this.guna2Panel3.Controls.Add(this.vehicles_button);
+            this.guna2Panel3.FillColor = System.Drawing.Color.Black;
+            this.guna2Panel3.Location = new System.Drawing.Point(3, 122);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(123, 630);
+            this.guna2Panel3.TabIndex = 3;
             // 
-            // guna2Button6
+            // home_button
             // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.guna2Button6.BorderRadius = 8;
-            this.guna2Button6.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.bao_cao_hover;
-            this.guna2Button6.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.bao_cao;
-            this.guna2Button6.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2Button6.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
-            this.guna2Button6.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(242)))), ((int)(((byte)(249)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 7F);
-            this.guna2Button6.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button6.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(217)))), ((int)(((byte)(255)))));
-            this.guna2Button6.Location = new System.Drawing.Point(13, 498);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.ShadowDecoration.BorderRadius = 10;
-            this.guna2Button6.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
-            this.guna2Button6.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.guna2Button6.Size = new System.Drawing.Size(103, 103);
-            this.guna2Button6.TabIndex = 6;
-            this.guna2Button6.Text = "Reports";
-            this.guna2Button6.TextOffset = new System.Drawing.Point(0, 20);
+            this.home_button.Animated = true;
+            this.home_button.BackColor = System.Drawing.Color.Transparent;
+            this.home_button.BorderRadius = 23;
+            this.home_button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.home_button.Checked = true;
+            this.home_button.CheckedState.FillColor = System.Drawing.Color.White;
+            this.home_button.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.home_hover;
+            this.home_button.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.home;
+            this.home_button.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.home_button.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
+            this.home_button.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
+            this.home_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.home_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.home_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.home_button.FillColor = System.Drawing.Color.Transparent;
+            this.home_button.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.home_button.ForeColor = System.Drawing.Color.Transparent;
+            this.home_button.HoverState.BorderColor = System.Drawing.Color.Black;
+            this.home_button.HoverState.CustomBorderColor = System.Drawing.Color.Black;
+            this.home_button.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.home_button.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
+            this.home_button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.home_button.Location = new System.Drawing.Point(9, 23);
+            this.home_button.Name = "home_button";
+            this.home_button.ShadowDecoration.BorderRadius = 10;
+            this.home_button.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
+            this.home_button.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
+            this.home_button.Size = new System.Drawing.Size(103, 103);
+            this.home_button.TabIndex = 4;
+            this.home_button.Text = "Home";
+            this.home_button.TextOffset = new System.Drawing.Point(0, 20);
+            this.home_button.UseTransparentBackground = true;
+            this.home_button.CheckedChanged += new System.EventHandler(this.home_button_CheckedChanged);
+            this.home_button.Click += new System.EventHandler(this.home_button_Click);
             // 
-            // guna2Button4
+            // reports_button
             // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.guna2Button4.BorderRadius = 8;
-            this.guna2Button4.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.nha_cung_cap_hover;
-            this.guna2Button4.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.nha_cung_cap;
-            this.guna2Button4.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2Button4.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
-            this.guna2Button4.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(242)))), ((int)(((byte)(249)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 7F);
-            this.guna2Button4.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(217)))), ((int)(((byte)(255)))));
-            this.guna2Button4.Location = new System.Drawing.Point(13, 379);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.ShadowDecoration.BorderRadius = 10;
-            this.guna2Button4.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
-            this.guna2Button4.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.guna2Button4.Size = new System.Drawing.Size(103, 103);
-            this.guna2Button4.TabIndex = 5;
-            this.guna2Button4.Text = "Suppliers";
-            this.guna2Button4.TextOffset = new System.Drawing.Point(0, 20);
+            this.reports_button.Animated = true;
+            this.reports_button.BackColor = System.Drawing.Color.Transparent;
+            this.reports_button.BorderRadius = 23;
+            this.reports_button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.reports_button.CheckedState.FillColor = System.Drawing.Color.White;
+            this.reports_button.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.bao_cao_hover;
+            this.reports_button.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.bao_cao;
+            this.reports_button.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.reports_button.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
+            this.reports_button.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
+            this.reports_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.reports_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.reports_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.reports_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.reports_button.FillColor = System.Drawing.Color.Transparent;
+            this.reports_button.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.reports_button.ForeColor = System.Drawing.Color.Transparent;
+            this.reports_button.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.reports_button.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
+            this.reports_button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.reports_button.Location = new System.Drawing.Point(9, 500);
+            this.reports_button.Name = "reports_button";
+            this.reports_button.ShadowDecoration.BorderRadius = 10;
+            this.reports_button.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
+            this.reports_button.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
+            this.reports_button.Size = new System.Drawing.Size(103, 103);
+            this.reports_button.TabIndex = 6;
+            this.reports_button.Text = "Reports";
+            this.reports_button.TextOffset = new System.Drawing.Point(0, 20);
+            this.reports_button.UseTransparentBackground = true;
+            this.reports_button.CheckedChanged += new System.EventHandler(this.home_button_CheckedChanged);
+            this.reports_button.Click += new System.EventHandler(this.reports_button_Click);
             // 
-            // guna2Button5
+            // customers_button
             // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.guna2Button5.BorderRadius = 8;
-            this.guna2Button5.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.phuong_tien_hover;
-            this.guna2Button5.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.phuong_tien;
-            this.guna2Button5.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2Button5.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
-            this.guna2Button5.CustomImages.ImageSize = new System.Drawing.Size(31, 31);
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(242)))), ((int)(((byte)(249)))));
-            this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 7F);
-            this.guna2Button5.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button5.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
-            this.guna2Button5.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(217)))), ((int)(((byte)(255)))));
-            this.guna2Button5.Location = new System.Drawing.Point(13, 260);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.ShadowDecoration.BorderRadius = 10;
-            this.guna2Button5.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
-            this.guna2Button5.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.guna2Button5.Size = new System.Drawing.Size(103, 103);
-            this.guna2Button5.TabIndex = 5;
-            this.guna2Button5.Text = "Vehicles";
-            this.guna2Button5.TextOffset = new System.Drawing.Point(0, 20);
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
+            this.customers_button.Animated = true;
+            this.customers_button.BackColor = System.Drawing.Color.Transparent;
+            this.customers_button.BorderRadius = 23;
+            this.customers_button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.customers_button.CheckedState.FillColor = System.Drawing.Color.White;
+            this.customers_button.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.khach_hang_hover;
+            this.customers_button.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.khach_hang;
+            this.customers_button.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.customers_button.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
+            this.customers_button.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
+            this.customers_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.customers_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.customers_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.customers_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.customers_button.FillColor = System.Drawing.Color.Transparent;
+            this.customers_button.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.customers_button.ForeColor = System.Drawing.Color.Transparent;
+            this.customers_button.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.customers_button.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
+            this.customers_button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.customers_button.Location = new System.Drawing.Point(9, 143);
+            this.customers_button.Name = "customers_button";
+            this.customers_button.ShadowDecoration.BorderRadius = 10;
+            this.customers_button.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
+            this.customers_button.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
+            this.customers_button.Size = new System.Drawing.Size(103, 103);
+            this.customers_button.TabIndex = 2;
+            this.customers_button.Text = "Customer";
+            this.customers_button.TextOffset = new System.Drawing.Point(0, 20);
+            this.customers_button.UseTransparentBackground = true;
+            this.customers_button.CheckedChanged += new System.EventHandler(this.home_button_CheckedChanged);
+            this.customers_button.Click += new System.EventHandler(this.customers_button_Click);
             // 
-            // guna2Button1
+            // suppliers_button
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.guna2Button1.BorderRadius = 8;
-            this.guna2Button1.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.khach_hang_hover;
-            this.guna2Button1.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.khach_hang;
-            this.guna2Button1.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2Button1.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
-            this.guna2Button1.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(242)))), ((int)(((byte)(249)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 7F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(217)))), ((int)(((byte)(255)))));
-            this.guna2Button1.Location = new System.Drawing.Point(13, 141);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.BorderRadius = 10;
-            this.guna2Button1.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
-            this.guna2Button1.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.guna2Button1.Size = new System.Drawing.Size(103, 103);
-            this.guna2Button1.TabIndex = 2;
-            this.guna2Button1.Text = "Customer";
-            this.guna2Button1.TextOffset = new System.Drawing.Point(0, 20);
+            this.suppliers_button.Animated = true;
+            this.suppliers_button.BackColor = System.Drawing.Color.Transparent;
+            this.suppliers_button.BorderRadius = 23;
+            this.suppliers_button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.suppliers_button.CheckedState.FillColor = System.Drawing.Color.White;
+            this.suppliers_button.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.nha_cung_cap_hover;
+            this.suppliers_button.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.nha_cung_cap;
+            this.suppliers_button.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.suppliers_button.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
+            this.suppliers_button.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
+            this.suppliers_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.suppliers_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.suppliers_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.suppliers_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.suppliers_button.FillColor = System.Drawing.Color.Transparent;
+            this.suppliers_button.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.suppliers_button.ForeColor = System.Drawing.Color.Transparent;
+            this.suppliers_button.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.suppliers_button.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
+            this.suppliers_button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.suppliers_button.Location = new System.Drawing.Point(9, 381);
+            this.suppliers_button.Name = "suppliers_button";
+            this.suppliers_button.ShadowDecoration.BorderRadius = 10;
+            this.suppliers_button.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
+            this.suppliers_button.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
+            this.suppliers_button.Size = new System.Drawing.Size(103, 103);
+            this.suppliers_button.TabIndex = 5;
+            this.suppliers_button.Text = "Suppliers";
+            this.suppliers_button.TextOffset = new System.Drawing.Point(0, 20);
+            this.suppliers_button.UseTransparentBackground = true;
+            this.suppliers_button.CheckedChanged += new System.EventHandler(this.home_button_CheckedChanged);
+            this.suppliers_button.Click += new System.EventHandler(this.suppliers_button_Click);
             // 
-            // guna2Button3
+            // vehicles_button
             // 
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.guna2Button3.BorderRadius = 8;
-            this.guna2Button3.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.home_hover;
-            this.guna2Button3.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.home;
-            this.guna2Button3.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2Button3.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
-            this.guna2Button3.CustomImages.ImageSize = new System.Drawing.Size(28, 28);
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(242)))), ((int)(((byte)(249)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 7F);
-            this.guna2Button3.ForeColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
-            this.guna2Button3.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(4)))), ((int)(((byte)(217)))), ((int)(((byte)(255)))));
-            this.guna2Button3.Location = new System.Drawing.Point(13, 22);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.ShadowDecoration.BorderRadius = 10;
-            this.guna2Button3.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
-            this.guna2Button3.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.guna2Button3.Size = new System.Drawing.Size(103, 103);
-            this.guna2Button3.TabIndex = 4;
-            this.guna2Button3.Text = "Home";
-            this.guna2Button3.TextOffset = new System.Drawing.Point(0, 20);
+            this.vehicles_button.Animated = true;
+            this.vehicles_button.BackColor = System.Drawing.Color.Transparent;
+            this.vehicles_button.BorderRadius = 23;
+            this.vehicles_button.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.vehicles_button.CheckedState.FillColor = System.Drawing.Color.White;
+            this.vehicles_button.CustomImages.HoveredImage = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.phuong_tien_hover;
+            this.vehicles_button.CustomImages.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.phuong_tien;
+            this.vehicles_button.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.vehicles_button.CustomImages.ImageOffset = new System.Drawing.Point(0, -10);
+            this.vehicles_button.CustomImages.ImageSize = new System.Drawing.Size(31, 31);
+            this.vehicles_button.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.vehicles_button.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.vehicles_button.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.vehicles_button.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.vehicles_button.FillColor = System.Drawing.Color.Transparent;
+            this.vehicles_button.Font = new System.Drawing.Font("Segoe UI", 7F);
+            this.vehicles_button.ForeColor = System.Drawing.Color.Transparent;
+            this.vehicles_button.HoverState.FillColor = System.Drawing.Color.Transparent;
+            this.vehicles_button.HoverState.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
+            this.vehicles_button.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(156)))), ((int)(((byte)(189)))));
+            this.vehicles_button.Location = new System.Drawing.Point(9, 262);
+            this.vehicles_button.Name = "vehicles_button";
+            this.vehicles_button.ShadowDecoration.BorderRadius = 10;
+            this.vehicles_button.ShadowDecoration.Color = System.Drawing.Color.DarkGray;
+            this.vehicles_button.ShadowDecoration.Shadow = new System.Windows.Forms.Padding(0, 0, 10, 10);
+            this.vehicles_button.Size = new System.Drawing.Size(103, 103);
+            this.vehicles_button.TabIndex = 5;
+            this.vehicles_button.Text = "Vehicles";
+            this.vehicles_button.TextOffset = new System.Drawing.Point(0, 20);
+            this.vehicles_button.UseTransparentBackground = true;
+            this.vehicles_button.CheckedChanged += new System.EventHandler(this.home_button_CheckedChanged);
+            this.vehicles_button.Click += new System.EventHandler(this.vehicles_button_Click);
             // 
-            // panel2
+            // button1
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(137, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1324, 651);
-            this.panel2.TabIndex = 2;
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 67);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "back";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // palette_dash_board
             // 
@@ -304,12 +338,36 @@
             this.palette_dash_board.HeaderStyles.HeaderForm.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
             this.palette_dash_board.HeaderStyles.HeaderForm.StateCommon.ButtonEdgeInset = 10;
             // 
+            // imgslide
+            // 
+            this.imgslide.BackColor = System.Drawing.Color.Transparent;
+            this.imgslide.Image = global::Phần_mềm_quản_lí_thuê_xe_ver2.Properties.Resources.slide;
+            this.imgslide.ImageRotate = 0F;
+            this.imgslide.Location = new System.Drawing.Point(81, -6);
+            this.imgslide.Name = "imgslide";
+            this.imgslide.Size = new System.Drawing.Size(47, 162);
+            this.imgslide.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgslide.TabIndex = 1;
+            this.imgslide.TabStop = false;
+            // 
+            // main_center
+            // 
+            this.main_center.BackColor = System.Drawing.Color.Transparent;
+            this.main_center.BorderRadius = 20;
+            this.main_center.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.main_center.FillColor = System.Drawing.Color.Black;
+            this.main_center.Location = new System.Drawing.Point(138, 3);
+            this.main_center.Name = "main_center";
+            this.main_center.Size = new System.Drawing.Size(1390, 874);
+            this.main_center.TabIndex = 4;
+            this.main_center.UseTransparentBackground = true;
+            // 
             // dash_board
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(1464, 657);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(1531, 880);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "dash_board";
             this.Palette = this.palette_dash_board;
@@ -328,24 +386,28 @@
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.StateInactive.Border.Rounding = 12;
             this.Text = "dash_board";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.dash_board_FormClosed);
             this.Load += new System.EventHandler(this.dash_board_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
+            this.guna2Panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.imgslide)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private ComponentFactory.Krypton.Toolkit.KryptonPalette palette_dash_board;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button customers_button;
+        private Guna.UI2.WinForms.Guna2Button vehicles_button;
+        private Guna.UI2.WinForms.Guna2Button suppliers_button;
+        private Guna.UI2.WinForms.Guna2Button home_button;
+        private Guna.UI2.WinForms.Guna2Button reports_button;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button button1;
+        private Guna.UI2.WinForms.Guna2PictureBox imgslide;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
+        private Guna.UI2.WinForms.Guna2Panel main_center;
     }
 }

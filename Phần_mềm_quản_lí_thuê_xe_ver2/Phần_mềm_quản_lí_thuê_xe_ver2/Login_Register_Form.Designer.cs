@@ -318,6 +318,7 @@
             this.login_button.Size = new System.Drawing.Size(343, 65);
             this.login_button.TabIndex = 0;
             this.login_button.Text = "LOGIN";
+            this.login_button.Click += new System.EventHandler(this.login_button_Click);
             // 
             // register_panel
             // 

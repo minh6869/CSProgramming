@@ -71,5 +71,12 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
                 register_panel.Visible = true;
             }
         }
+
+        private void login_button_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+            dash_board dash_Board = new dash_board();
+            dash_Board.Show();
+        }
     }
 }

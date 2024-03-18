@@ -29,5 +29,7 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
             this.Hide();
             time_load_screen.Stop();
         }
+
+     
     }
 }

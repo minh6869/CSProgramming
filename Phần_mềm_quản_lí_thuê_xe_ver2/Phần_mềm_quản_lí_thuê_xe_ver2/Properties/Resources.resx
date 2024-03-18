@@ -118,17 +118,35 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="car_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\car_background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bao_cao_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bao_cao_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="username" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arrow_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bao_cao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bao_cao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\max_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nha_cung_cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nha_cung_cap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\max2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="app_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\app_file.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="max1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\max1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,20 +154,41 @@
   <data name="mini2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mini2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="team11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\team11.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="car_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\car_background1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="password_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="app_file" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\app_file.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="phuong_tien" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phuong_tien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nha_cung_cap_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nha_cung_cap_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arrow_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="khach_hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khach_hang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="email_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\email_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="close2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="khach_hang_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\khach_hang_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phuong_tien_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phuong_tien_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mini1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mini1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,46 +196,10 @@
   <data name="car_background2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\car_background2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="max1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\max1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrow_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_icon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="max_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\max_white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="max2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\max2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="team11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\team11.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bao_cao" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bao_cao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bao_cao_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bao_cao_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="khach_hang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khach_hang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="khach_hang_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\khach_hang_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nha_cung_cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nha_cung_cap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nha_cung_cap_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nha_cung_cap_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phuong_tien" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phuong_tien.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="phuong_tien_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phuong_tien_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="slide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\slide.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

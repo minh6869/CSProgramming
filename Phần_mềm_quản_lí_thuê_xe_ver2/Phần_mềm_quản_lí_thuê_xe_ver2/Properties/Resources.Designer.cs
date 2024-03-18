@@ -313,6 +313,16 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap slide {
+            get {
+                object obj = ResourceManager.GetObject("slide", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap team11 {
             get {
                 object obj = ResourceManager.GetObject("team11", resourceCulture);
