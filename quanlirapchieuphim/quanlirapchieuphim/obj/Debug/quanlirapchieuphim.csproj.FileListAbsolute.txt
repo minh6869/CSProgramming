@@ -1,0 +1,9 @@
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\bin\Debug\quanlirapchieuphim.exe.config
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\bin\Debug\quanlirapchieuphim.exe
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\bin\Debug\quanlirapchieuphim.pdb
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.csprojResolveAssemblyReference.cache
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.Form1.resources
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.Properties.Resources.resources
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.csproj.GenerateResource.Cache
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.exe
+E:\pham dinh minh\quanlirapchieuphim\quanlirapchieuphim\obj\Debug\quanlirapchieuphim.pdb
