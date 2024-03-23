@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
 using Guna.UI2.WinForms;
+using System.Threading;
 
 namespace Phần_mềm_quản_lí_thuê_xe_ver2
 {
@@ -20,10 +21,12 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
         public dash_board()
         {
             InitializeComponent();
-            _buttonState.Add("home_button", false);
+            Control.CheckForIllegalCrossThreadCalls = false;
+            _buttonState.Add("home_button", true);
             _buttonState.Add("customers_button", false);
             _buttonState.Add("vehicles_button", false);
             _buttonState.Add("suppliers_button", false);
+            _buttonState.Add("employee_button", false);
             _buttonState.Add("reports_button", false);
 
         }
@@ -38,7 +41,7 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
 
         private void dash_board_Load(object sender, EventArgs e)
         {
-
+            load_usercontrol(new home());
         }
         private void dash_board_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -47,10 +50,14 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
 
         private void load_usercontrol(UserControl userControl)
         {
-            userControl.Dock = DockStyle.Fill;
-            main_center.Controls.Clear();
-            main_center.Controls.Add(userControl);
-            userControl.BringToFront();
+
+            this.Invoke((MethodInvoker)delegate
+            {
+                userControl.Dock = DockStyle.Fill;
+                main_center.Controls.Clear();
+                main_center.Controls.Add(userControl);
+                userControl.BringToFront();
+            });
         }
 
 
@@ -60,7 +67,9 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
             string buttonname = ((Guna2Button)sender).Name;
             if (_buttonState[buttonname] == false)
             {
-                load_usercontrol(new test());
+               
+               // moveImageBox(sender);
+                load_usercontrol(new home());
                 Console.WriteLine($"{buttonname}");
                 cap_nhat_button_state(buttonname);
                 
@@ -72,6 +81,9 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
             string buttonname = ((Guna2Button)sender).Name;
             if (_buttonState[buttonname] == false)
             {
+               
+                //moveImageBox(sender);
+                load_usercontrol(new customer_uc());
                 Console.WriteLine($"{buttonname}");
                 cap_nhat_button_state(buttonname);
             }
@@ -82,6 +94,8 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
             string buttonname = ((Guna2Button)sender).Name;
             if (_buttonState[buttonname] == false)
             {
+                //moveImageBox(sender);
+                load_usercontrol(new vehicles_uc());
                 Console.WriteLine($"{buttonname}");
                 cap_nhat_button_state(buttonname);
             }
@@ -92,7 +106,20 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
             string buttonname = ((Guna2Button)sender).Name;
             if (_buttonState[buttonname] == false)
             {
+                load_usercontrol(new suppliers_uc());
                 Console.WriteLine($"{buttonname}");
+                cap_nhat_button_state(buttonname);
+            }
+        }
+
+
+        private void Employee_button_Click(object sender, EventArgs e)
+        {
+            string buttonname = (((Guna2Button)sender).Name);
+            if (_buttonState[buttonname] == false)
+            {
+                load_usercontrol(new employee_uc());
+                Console.WriteLine(buttonname);
                 cap_nhat_button_state(buttonname);
             }
         }
@@ -118,11 +145,20 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
 
         private void moveImageBox(object sender)
         {
-            Guna2Button button = (Guna2Button)sender;
-            imgslide.Location = new Point(button.Location.X +49, button.Location.Y-19);
-            imgslide.SendToBack();
+            new Thread(
+                () =>
+                {
+                    Guna2Button button = (Guna2Button)sender;
+                    imgslide.Location = new Point(button.Location.X + 49, button.Location.Y - 19);
+                    imgslide.SendToBack();
+
+                }
+                )
+            { IsBackground = true }.Start();
+
+            
         }
-        private void home_button_CheckedChanged(object sender, EventArgs e)
+        private void button_CheckedChanged(object sender, EventArgs e)
         {
             moveImageBox(sender);
         }

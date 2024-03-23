@@ -17,19 +17,22 @@ namespace Phần_mềm_quản_lí_thuê_xe_ver2
         {
             InitializeComponent();
             Random random = new Random();
-            time_load_screen.Interval = random.Next(1000, 10000);
+            time_load_screen.Interval = random.Next(1000, 1002);
             Console.WriteLine($" mat {(time_load_screen.Interval * 1.0 / 1000)}s de load");
         }
 
         private void time_load_screen_Tick(object sender, EventArgs e)
         {
+            time_load_screen.Stop();
             Console.WriteLine("load xong splash screen");
             Login_Register_Form form_login = new Login_Register_Form();
             form_login.Show();
             this.Hide();
-            time_load_screen.Stop();
         }
 
-     
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
